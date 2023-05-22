@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>tabel 2</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>header coloum 1</td>
+            <td>header coloum 2</td>
+            <td>header coloum 3</td>
+            <td>header coloum 4</td>
+        </tr>
+        <tr>
+            <td>row 2-item 1</td>
+            <td>row 2-item 2</td>
+            <td rowspan="2"><b>row 2 nested table 1</b>
+                <table border="1" cellspacing="10">
+                    <tr>
+                       <td>row1 header</td>
+                       <td>item</td> 
+                    </tr>
+                    <tr>
+                        <td>row 2 header</td>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <td>row 3 header</td>
+                        <td>item</td>
+                    </tr>
+                </table>
+            </td>
+            <td>row 2-item 4 A second line</td>
+        </tr>
+        <tr cellpadding="5">
+            <td><b>row 3 nested table 2 </b>
+                <table border="1" cellspacing="10">
+                    <tr>
+                        <td>row 1 header</td>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <td>row 2 header</td>
+                        <td>item</td>
+                    </tr>
+                </table>
+            </td>
+            <td>row 3 - item 2</td>
+            <td rowspan="2">row 3 - item 3</td>
+        </tr>
+        <tr>
+            <td>row 4 - item 1</td>
+            <td>row 4 - item 2</td>
+            <td>row 4 - item 3</td>
+        </tr>
+        <tr>
+            <td colspan="4">row 5 - last row of outer table</td>
+        </tr>
+    </table>
+</body>
+</html>
